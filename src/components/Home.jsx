@@ -4,7 +4,7 @@ export default function Home(){
   return(
     <div>
       <Navbar/>
-      <h1>HOME</h1>
+      <h1>¡Bienvenidos a la página web oficial del primer semillero de Derecho y Tecnología de Argentina!</h1>
       <Footer/>
     </div>
   )
