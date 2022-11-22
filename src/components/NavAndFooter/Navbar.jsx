@@ -1,9 +1,10 @@
 import NavbarLink from "./NavbarLinks"
 export default function Navbar(){
   return(
-  <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
     <div className="container-fluid">
-      <a className="navbar-brand" href="/">Legaltech Seed</a>
+      <img src={require("../../images/logologo.png")} alt=""/>
+      <img src={require("../../images/textologo.png")} alt=""/>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon" />
       </button>
