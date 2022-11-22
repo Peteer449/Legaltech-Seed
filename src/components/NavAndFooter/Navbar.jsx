@@ -1,19 +1,17 @@
+import NavbarLink from "./NavbarLinks"
 export default function Navbar(){
   return(
   <nav className="navbar navbar-expand-lg navbar-light bg-light">
     <div className="container-fluid">
-      <a className="navbar-brand" href="#">Legaltech Seed</a>
+      <a className="navbar-brand" href="/">Legaltech Seed</a>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon" />
       </button>
-      <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div className="navbar-nav">
-          <a className="nav-link active" aria-current="page" href="#">Inicio</a>
-          <a className="nav-link" href="#">Quienes somos</a>
-          <a className="nav-link" href="#">Nuestras actividades</a>
-          <a className="nav-link" href="#">Contenido</a>
-          <a className="nav-link" href="#">Se parte</a>
-        </div>
+      <div className="collapse navbar-collapse justify-content-lg-end" id="navbarNavAltMarkup">
+        <ul className="navbar-nav p-3 d-flex justify-content-center text-center">
+          <NavbarLink />
+          <button className="btn btn-outline-danger">Contactanos</button>
+        </ul>
       </div>
     </div>
   </nav>
