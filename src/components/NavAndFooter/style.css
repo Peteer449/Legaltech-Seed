@@ -1,0 +1,11 @@
+.fa-brands,
+.fa-solid {
+    color: rgb(66, 64, 64);
+    font-size: 30px;
+}
+
+.fa-brands:hover,
+.fa-solid:hover {
+    transition: all .8s;
+    color: #000;
+}
