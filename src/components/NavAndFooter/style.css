@@ -1,11 +1,42 @@
 .fa-brands,
 .fa-solid {
-    color: rgb(66, 64, 64);
+    color: #216CB0;
     font-size: 30px;
+    transition: all .8s;
 }
 
 .fa-brands:hover,
 .fa-solid:hover {
     transition: all .8s;
-    color: #000;
+    color: #3F8CC7;
+    transition: all .8s;
+}
+
+/* Navbar */
+
+.btn__contact {
+    background: #216CB0;
+    border-radius: 999px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+    transition: all .8s;
+}
+
+.btn__contact:hover {
+    background-color: #3F8CC7;
+    box-shadow: #3F8CC7 0 15px 20px -10px;
+    transition: all .8s;
 }
