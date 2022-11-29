@@ -1,7 +1,7 @@
 import NavbarLink from "./NavbarLinks"
 export default function Navbar(){
   return(
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
     <div className="container-fluid">
       {/*Las imagenes son del logo(En react se usa require()*/}
       <img src={require("../../images/logologo.png")} alt=""/>
