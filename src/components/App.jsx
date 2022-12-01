@@ -1,7 +1,7 @@
 import Navbar from "./NavAndFooter/Navbar";
 import Footer from "./NavAndFooter/Footer";
 import {BrowserRouter, Routes, Route} from "react-router-dom"
-import Home from "./Home";
+import Home from "./Home/Home";
 import Contenido from "./contenido/Contenido";
 import NuestrasActividades from "./nuestrasActividades/nuestrasActividades";
 import QuienesSomos from "./quienesSomos/QuienesSomos";
