@@ -1,3 +1,4 @@
+/* para saber si las fotos estan del lado derecho o izquierdo */
 .left{
   float:left;
 }
@@ -8,7 +9,7 @@
 #blue-card-container{
   position: relative;
 }
-
+/* Hay dos versiones de cada cosa, la primera seccion y la segunda son distintas y necesito distintos ids */
 #blue-card{
   border-radius: 60px;
   margin: 10vh 0 10vh 0;
@@ -32,11 +33,20 @@
 }
 
 #blue-card-img-second{
+  width: 230px;
+  height: 230px;
   border-radius: 100px;
   transform: rotate(45deg);
   top: -100px;
   left:25vw;
   position: absolute;
+}
+
+#img-inside{
+  transform: rotate(-45deg);
+  margin-top: 10%;
+  margin-left: 10%;
+  height: 80%;
 }
 
 #card-title{
@@ -98,7 +108,7 @@
 }
 
 /* Media query mediana(md)  */
-@media (min-width: 768px) {
+@media (min-width: 768px){
   #blue-card-container{
     position:static;
   }
@@ -129,6 +139,69 @@
     padding-right: 0%;
   }
   #card-title-second{
+    text-align: left;
     margin-top: 0%;
+  }
+  .left-img{
+    float: left !important;
+  }
+  .left-text{
+    text-align: right !important;
+  }
+}
+
+/* Media query extra grande(xl)  */
+@media (min-width: 1200px) {
+  #second-section-cards{
+    display: flex;
+    justify-content: space-around;
+    margin:20% 15% 20% 15%;
+  }
+  #blue-card{
+    margin: 20% 15% 20% 15%;
+    height: 45%;
+  }
+  #blue-card-img{
+    width: 400px;
+    height: 400px;
+    margin-right: 10%;
+  }
+  #card-title{
+    padding-right: 0%;
+    padding-left: 5%;
+  }
+  #card-text{
+    padding-right: 40%;
+    padding-left: 5%;
+  }
+  .left-img{
+    margin-right: 0 !important;
+    margin-left: 10% !important;
+  }
+  .left-text{
+    padding-left: 40% !important;
+    padding-right: 5% !important;
+    text-align: right !important;
+  }
+  #blue-card-second-large-div{
+    background-color: #3F8CC7;
+    border-radius: 60px;
+    height: 100%;
+    padding: 10%;
+  }
+  #blue-card-second-large-container{
+    width: 32%;
+  }
+  #blue-card-second-large-img{
+    border-radius: 100px;
+    transform: rotate(45deg);
+    position: relative;
+    top: -15%;
+    left: 10%;
+    height: 230px;
+    width: 230px;
+  }
+  #card-title-second{
+    text-align: center;
   }
 }
