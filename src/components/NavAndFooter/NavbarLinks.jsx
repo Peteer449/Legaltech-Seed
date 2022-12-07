@@ -1,51 +1,87 @@
-import { Link,useLocation } from "react-router-dom"
-import "./style.css"
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import "./style.css";
+import { GiRocketThruster } from "react-icons/gi";
+import { FaBars, FaTimes } from "react-icons/fa";
+import { IconContext } from "react-icons/lib";
+import { NavLink } from "react-router-dom";
 
+function Navbar() {
+  const [click, setClick] = useState(false);
 
-//Paginas con sus rutas (active:false es para desabilitar el boton y no te lleve a esa ruta)
-const navbarLinks=[
-  {
-    section:"Inicio",
-    active:true,
-    link:"/"
-  },
-  {
-    section:"Quienes somos",
-    active:true,
-    link:"/QuienesSomos"
-  },
-  {
-    section:"Nuestras actividades",
-    active:true,
-    link:"/NuestrasActividades"
-  },
-  {
-    section:"Contenido",
-    active:true,
-    link:"/Contenido"
-  },
-  {
-    section:"Se parte",
-    active:true,
-    link:"/SeParte"
-  }
-]
+  const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
 
+  return (
+    <>
+      <IconContext.Provider value={{ color: "#fff" }}>
+        <nav className="navbar">
+          <div className="navbar-container container">
+            <div className="menu-icon" onClick={handleClick}>
+              {click ? <FaTimes /> : <FaBars />}
+            </div>
+            <ul className={click ? "nav-menu active" : "nav-menu"}>
+              <li className="nav-item">
+                <NavLink
+                  to="/"
+                  className={({ isActive }) =>
+                    "nav-links" + (isActive ? " activated" : "")
+                  }
+                  onClick={closeMobileMenu}
+                >
+                  Inicio
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink
+                  to="/quienesSomos"
+                  className={({ isActive }) =>
+                    "nav-links" + (isActive ? " activated" : "")
+                  }
+                  onClick={closeMobileMenu}
+                >
+                    Quienes Somos
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink
+                  to="/nuestrasActividades"
+                  className={({ isActive }) =>
+                    "nav-links" + (isActive ? " activated" : "")
+                  }
+                  onClick={closeMobileMenu}
+                >
+                  Nuestras actividades
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink
+                  to="/contenido"
+                  className={({ isActive }) =>
+                    "nav-links" + (isActive ? " activated" : "")
+                  }
+                  onClick={closeMobileMenu}
+                >
+                  Contenido
+                </NavLink>
+              </li>
+              <li id="seParteSemillero">
+                <NavLink
+                  to="/seParte"
+                  className={({ isActive }) =>
+                    "seParte" + (isActive ? " activatedSeParte" : "")
+                  }
+                  onClick={closeMobileMenu}
+                >
+                  Se parte del semillero
+                </NavLink>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </IconContext.Provider>
+    </>
+  );
+}
 
-export default function NavbarLink(){
-  const location = useLocation() //Devuelve la ruta en donde estas parado
-  const {pathname}=location
-  const linksMaped=navbarLinks.map((links,index)=>{ //Mapeo el array de rutas para devolver un <Link> para cada una
-    return(
-        <li className="nav-item" key={index}>
-          <Link className={`nav-link active overflow-visible ${pathname===links.link?"text-decoration-underline fw-bold":""}`} activeClassName="text-decoration-underline" to={links.link}>{links.section}
-          </Link>
-        </li>
-      )
-    }
-  )
-    return(
-      <>
-        {linksMaped}
-      </>
-  )}
+export default Navbar;

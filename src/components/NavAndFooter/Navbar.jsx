@@ -13,7 +13,6 @@ export default function Navbar(){
         <ul className="navbar-nav p-3 d-flex justify-content-center text-center">
           {/*NavbarLink devuelve todos los links mapeados para mostrarlos en la pagina */}
           <NavbarLink />
-          <button className="btn__contact">Contactanos</button>
         </ul>
       </div>
     </div>
