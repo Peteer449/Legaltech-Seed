@@ -12,13 +12,13 @@
 /* Hay dos versiones de cada cosa, la primera seccion y la segunda son distintas y necesito distintos ids */
 #blue-card{
   border-radius: 60px;
-  margin: 10vh 0 10vh 0;
+  margin: 40% 0 40% 0;
   background-color:#3F8CC7;
 }
 
 #blue-card-second{
   border-radius: 60px;
-  margin: 15vh 0 15vh 0;
+  margin: 40% 0 40% 0;
   background-color:#3F8CC7;
 }
 
@@ -26,7 +26,7 @@
   border-radius: 60px;
   transform: rotate(45deg);
   top: -50px;
-  left:55vw;
+  left:60%;
   height: 130px;
   width: 130px;
   position: absolute;
@@ -38,7 +38,7 @@
   border-radius: 100px;
   transform: rotate(45deg);
   top: -100px;
-  left:25vw;
+  left:25%;
   position: absolute;
 }
 
@@ -78,7 +78,7 @@
 
 #como-lo-hacemos{
   background: #216CB0;
-  margin: 20vh 0 20vh 0;
+  margin: 20% 0 20% 0;
   transform: skew(0, -3deg);
   padding: 5%;
 }
@@ -92,6 +92,7 @@
   font-weight: 900;
   line-height: 45px;
   text-align: center;
+  word-wrap: break-word;
 }
 
 #como-lo-hacemos-text{
@@ -102,7 +103,7 @@
 }
 
 #premios-y-reconocimientos{
-  margin: 20vh 0 20vh 0;
+  margin: 20% 0 20% 0;
   padding: 5%;
   background-color: black;
 }
@@ -111,6 +112,12 @@
 @media (min-width: 768px){
   #blue-card-container{
     position:static;
+  }
+  #blue-card{
+    margin: 20% 0 20% 0;
+  }
+  #blue-card-second{
+    margin: 20% 0 20% 0;
   }
   #blue-card-img{
     border-radius: 100px;
@@ -205,3 +212,4 @@
     text-align: center;
   }
 }
+
