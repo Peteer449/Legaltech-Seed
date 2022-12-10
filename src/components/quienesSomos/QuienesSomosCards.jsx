@@ -1,4 +1,4 @@
-import useWindowDimensions from "../useWindowDimensions";
+import useWindowDimensions from "./useWindowDimensions";
 
 export default function QuienesSomosCards({
     orientation,

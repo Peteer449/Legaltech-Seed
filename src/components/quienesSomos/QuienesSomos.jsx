@@ -4,7 +4,6 @@ import "./QuienesSomos.css"
 export default function QuienesSomos(){
   return(
     <div>
-      Quienes somos
       {/* Primeras 3 cards de Quienes somos */}
       <QuienesSomosCards 
         orientation="R"
