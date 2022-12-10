@@ -79,7 +79,7 @@ export default function Home(){
       </div>
 
 
-      <div className="row row-cols-12 mt-5">
+      {/* <div className="row row-cols-12 mt-5">
         <div className="col-3 offset-3">
         <img src={require("../../images/logologo.png")} className="img-fluid" alt=""/>
         <img src={require("../../images/textologo.png")} className="img-fluid" alt=""/>
@@ -92,7 +92,7 @@ export default function Home(){
         </ul>
         </div>
         <img src="https://pimmedia.egger.com/l/decor/U732_PM/s/Detail/f/881x513/8803437445150" alt="" className="img-fluid col-3"/>
-      </div>
+      </div> */}
       
 
       {/*Imagen de la flecha que te lleva arriba de la pagina*/}
