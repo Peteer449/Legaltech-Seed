@@ -1,0 +1,319 @@
+/* Introduccion */
+
+#introduccion {
+    background-color: #216cb0;
+    border-radius: 0px 0px 340.812px 340.812px;
+    height: 20em;
+}
+
+#introduccion-title {
+    color: #fff;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+}
+
+#introduccion-text {
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+.h2-actividades {
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* Proyectos */
+
+#proyectos {
+    background: #216cb0;
+    margin: 0;
+    transform: skew(0, -3deg);
+    padding: 5%;
+}
+
+#proyectos-container {
+    transform: skew(0, 3deg);
+}
+
+#proyectos-title {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 45px;
+    text-align: start;
+    word-wrap: break-word;
+    margin-left: 10%;
+}
+
+#proyectos-text {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: start;
+    line-height: 30px;
+    margin-left: 10%;
+    list-style: none;
+}
+
+#proyectos-list {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: start;
+    line-height: 30px;
+    margin-left: 7%;
+    list-style: none;
+}
+
+#proyectos-list li:before {
+    content: '✓';
+}
+
+
+/* Investigación  */
+
+#investigacion {
+    margin: 0;
+    padding: 5%;
+}
+
+
+#investigacion-title {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 45px;
+    text-align: start;
+    word-wrap: break-word;
+    margin-left: 10%;
+    color: #000;
+}
+
+#investigacion-text {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: start;
+    line-height: 30px;
+    margin-left: 10%;
+    list-style: none;
+    color: #000;
+
+}
+
+#investigacion-list {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: start;
+    line-height: 30px;
+    margin-left: 7%;
+    list-style: none;
+    color: #000;
+
+}
+
+#investigacion-list li:before {
+    content: '✓';
+}
+
+/* Adultos Mayores */
+
+#adultos-mayores {
+    background: #216cb0;
+    margin: 0;
+    transform: skew(0, 3deg);
+    padding: 5%;
+}
+
+#adultos-mayores-container {
+    transform: skew(0, -3deg);
+}
+
+#adultos-mayores-title {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 45px;
+    text-align: start;
+    word-wrap: break-word;
+    margin-left: 10%;
+}
+
+#adultos-mayores-text {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: start;
+    line-height: 30px;
+    margin-left: 10%;
+    list-style: none;
+}
+
+#adultos-mayores-list {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: start;
+    line-height: 30px;
+    margin-left: 7%;
+    list-style: none;
+}
+
+#adultos-mayores-list li:before {
+    content: '✓';
+}
+
+/* Recursos Humanos  */
+
+#recursos-humanos {
+    margin: 0;
+    padding: 5%;
+}
+
+#recursos-humanos-title {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 45px;
+    text-align: start;
+    word-wrap: break-word;
+    margin-left: 10%;
+    color: #000;
+}
+
+#recursos-humanos-text {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: start;
+    line-height: 30px;
+    margin-left: 10%;
+    list-style: none;
+    color: #000;
+}
+
+#recursos-humanos-list {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: start;
+    line-height: 30px;
+    margin-left: 7%;
+    list-style: none;
+    color: #000;
+}
+
+#recursos-humanos-list li:before {
+    content: '✓';
+}
+
+/* Comunicacion  */
+
+#comunicacion {
+    background: #216cb0;
+    margin: 0;
+    transform: skew(0, -3deg);
+    padding: 5%;
+}
+
+#comunicacion-container {
+    transform: skew(0, 3deg);
+}
+
+#comunicacion-title {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 45px;
+    text-align: start;
+    word-wrap: break-word;
+    margin-left: 10%;
+}
+
+#comunicacion-text {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: start;
+    line-height: 30px;
+    margin-left: 10%;
+    list-style: none;
+}
+
+#comunicacion-list {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: start;
+    line-height: 30px;
+    margin-left: 7%;
+    list-style: none;
+}
+
+#comunicacion-list li:before {
+    content: '✓';
+}
+
+/* Editorial  */
+
+#editorial {
+    margin: 0;
+    padding: 5%;
+}
+
+
+#editorial-title {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 45px;
+    text-align: start;
+    word-wrap: break-word;
+    margin-left: 10%;
+    color: #000;
+}
+
+#editorial-text {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: start;
+    line-height: 30px;
+    margin-left: 10%;
+    list-style: none;
+    color: #000;
+
+}
+
+#editorial-list {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: start;
+    line-height: 30px;
+    margin-left: 7%;
+    list-style: none;
+    color: #000;
+
+}
+
+#editorial-list li:before {
+    content: '✓';
+}
+
+@media screen and (max-width: 1100px) {
+    #introduccion-text {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 515px) {
+    #proyectos-list {
+        margin-left: 0;
+    }
+    #investigacion-list {
+        margin-left: 0;
+    }
+    #adultos-mayores-list {
+        margin-left: 0;
+    }
+    #recursos-humanos-list {
+        margin-left: 0;
+    }
+    #editorial-list {
+        margin-left: 0;
+    }
+    #comunicacion-list {
+        margin-left: 0;
+    }
+}

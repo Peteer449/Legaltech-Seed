@@ -1,0 +1,260 @@
+.box-3 {
+    position: absolute;
+    top: 720.29px;
+    left: -213px;
+    background-color: var(--color-gray-100);
+    height: 659.77px;
+    transform-origin: 0 0;
+}
+
+.box-3,
+.box-31,
+.box-32,
+.box-33 {
+    width: 2210.66px;
+    transform: rotate(-3.04deg);
+}
+
+.box-31,
+.box-32,
+.box-33,
+.box-34 {
+    position: absolute;
+    transform-origin: 0 0;
+}
+
+.box-31 {
+    top: 1493.3px;
+    left: -94.68px;
+    background-color: var(--color-gray-200);
+    height: 972.47px;
+}
+
+.box-32 {
+    top: 2576.29px;
+    left: -142px;
+    background-color: var(--color-gray-100);
+    height: 681.64px;
+}
+
+.box-33,
+.box-34 {
+    top: 3356.29px;
+    left: -129px;
+    background-color: var(--color-gray-200);
+    height: 589.67px;
+}
+
+.box-34 {
+    top: -51.82px;
+    left: -47.66px;
+    border-radius: 0 0 var(--br-md) var(--br-md);
+    width: 1759px;
+    height: 681.62px;
+    transform: rotate(-7.17deg);
+}
+
+.descubr-todo-el {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.adultos-mayores {
+    position: absolute;
+    line-height: 45px;
+    font-weight: 900;
+    display: inline-block;
+    height: 39px;
+}
+
+.descubr-todo-el-material-que {
+    top: 212px;
+    left: 491px;
+    width: 938px;
+}
+
+.descubr-todo-el-material-que,
+.editorial,
+.investigacin,
+.proyectos {
+    position: absolute;
+    line-height: 45px;
+    font-weight: 900;
+    display: inline-block;
+    height: 39px;
+}
+
+.adultos-mayores,
+.editorial,
+.investigacin,
+.proyectos {
+    left: 390px;
+    width: 1140px;
+}
+
+.proyectos {
+    top: 763px;
+}
+
+.investigacin {
+    top: 1542px;
+}
+
+.adultos-mayores {
+    top: 2609px;
+}
+
+.editorial {
+    top: 3386px;
+}
+
+.httpslegaltechseedwixsite {
+    color: inherit;
+}
+
+.proyecto-informateados-segme {
+    position: absolute;
+    top: 877px;
+    left: 467px;
+    font-size: var(--texto-raleway-size);
+    line-height: 30px;
+    font-family: var(--texto-raleway);
+    color: inherit;
+    text-align: left;
+    display: inline-block;
+    width: 986px;
+    height: 297px;
+}
+
+.link {
+    color: var(--color-gray-300);
+}
+
+.infopublis-son-producciones-de {
+    position: absolute;
+    top: 1663px;
+    left: 467px;
+    font-size: var(--texto-raleway-size);
+    line-height: 30px;
+    font-family: var(--texto-raleway);
+    text-align: left;
+    display: inline-block;
+    width: 993px;
+    height: 504px;
+}
+
+.talleres-de-formacin {
+    margin: 0;
+}
+
+.diccionario-tech-para-adultos,
+.podcast-millennials-hackeando {
+    position: absolute;
+    top: 2743px;
+    left: 468px;
+    font-size: var(--texto-raleway-size);
+    line-height: 30px;
+    font-family: var(--texto-raleway);
+    text-align: left;
+    display: inline-block;
+    width: 993px;
+    height: 297px;
+}
+
+.podcast-millennials-hackeando {
+    top: 3521px;
+    width: 985px;
+}
+
+.circle-bg-icon {
+    position: absolute;
+    top: calc(50% - 2258.5px);
+    right: 1570px;
+    width: 350px;
+    height: 350px;
+}
+
+.circle-bg-icon1 {
+    right: 1570px;
+}
+
+.circle-bg-icon1,
+.circle-bg-icon2,
+.circle-bg-icon3 {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+}
+
+.circle-bg-icon1 {
+    top: calc(50% - 413.5px);
+}
+
+.circle-bg-icon2 {
+    top: calc(50% - 1388.5px);
+    right: -175px;
+}
+
+.circle-bg-icon3 {
+    right: -175px;
+    top: calc(50% + 209.5px);
+}
+
+.vector-icon {
+    top: 2644.79px;
+}
+
+.vector-icon,
+.vector-icon1,
+.vector-icon2 {
+    position: absolute;
+    left: 1663.5px;
+    width: 162px;
+    height: 150.92px;
+}
+
+.vector-icon1 {
+    top: 2734.79px;
+}
+
+.vector-icon2 {
+    top: 2823.79px;
+}
+
+.contenido {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 6277px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--titulos-montserrat-size);
+    color: var(--color-white);
+    font-family: var(--titulos-montserrat);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap");
+
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+:root {
+    /* fonts */
+    --texto-raleway: Raleway;
+    --titulos-montserrat: Montserrat;
+
+    /* font sizes *raleway--texto-raleway-size: 20px;
+    --titulos-montserrat-size: 40px;
+
+    /* Colors */
+    --color-white: #fff;
+    --color-gray-100: #3f8cc7;
+    --color-gray-200: #216cb0;
+    --color-gray-300: #020405;
+
+    /* border radius */
+    --br-md: 340.81px;
+}
