@@ -5,6 +5,7 @@ import Home from "./Home/Home";
 import Contenido from "./contenido/Contenido";
 import NuestrasActividades from "./nuestrasActividades/nuestrasActividades";
 import QuienesSomos from "./quienesSomos/QuienesSomos";
+import QuienesSomos2 from "./quienesSomos/QuienesSomos2";
 import SeParte from "./seParte/SeParte";
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/Contenido" element={<Contenido/>}/>
           <Route path="/NuestrasActividades" element={<NuestrasActividades/>}/>
           <Route path="/QuienesSomos" element={<QuienesSomos/>}/>
+          <Route path="/QuienesSomos2" element = {<QuienesSomos2/>}/>
           <Route path="/SeParte" element={<SeParte/>}/>
         </Routes>
         <Footer/>
