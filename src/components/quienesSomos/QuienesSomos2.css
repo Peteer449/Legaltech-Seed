@@ -1,0 +1,66 @@
+#conoce-al-team{
+  background-color: #216CB0;
+  height: 200px;
+  border-radius:0 0 30% 45%;
+}
+#conoce-al-team-text{
+  padding: 50px;
+}
+
+#linkedin{
+  margin: 50px;
+}
+
+#charge{
+  background-color: #216CB0;
+  border-radius: 120px 40px;
+  margin: 10px;
+}
+
+/* Media query mediana(md)  */
+@media (min-width: 768px) {
+  #charge{
+    margin: 10px 10% 10px 10%;
+  }
+  #conoce-al-team{
+    border-radius: 0px 0px 280.812px 280.812px;
+    transform: rotate(-7.17deg);
+    top: -50px;
+    position: absolute;
+    width: 96%;
+    height: 400px;
+    z-index: -1;
+  }
+  #conoce-al-team-text{
+    transform: rotate(7.17deg);
+    margin-top: 150px;
+  }
+  #nuestros-circulos{
+    margin-top: 350px;
+  }
+  #linkedin{
+    width: 40%;
+    margin: 50px 5% 50px 5%;
+  }
+  #linkedin-container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+/* Media query extra grande(xl)  */
+@media (min-width: 1200px) {
+  #conoce-al-team{
+    border-radius: 0px 0px 340.812px 340.812px;
+  }
+  #nuestros-circulos{
+    margin-top: 400px;
+  }
+  #charge{
+    margin: 10px 20% 10px 20%;
+  }
+  #linkedin{
+    width: 29%;
+    margin: 50px 2% 50px 2%;
+  }
+}
