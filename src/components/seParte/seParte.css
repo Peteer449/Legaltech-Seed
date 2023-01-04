@@ -1,0 +1,198 @@
+#intro{
+  background-color: #216CB0;
+  height: 300px;
+  border-radius:0 0 30% 45%;
+}
+
+#intro-text{
+  padding: 50px;
+}
+
+.title{
+  margin-top: 20%;
+  margin-bottom: 5%;
+  padding: 5px;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 45px;
+}
+
+#contribuir{
+  background-color: #3F8CC7;
+  border-radius: 120px 40px;
+  margin: 10% 5%;
+}
+
+.text{
+  padding: 5px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.text-ul{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+.polygon-shadow{
+  filter: drop-shadow(0px 10px 20px rgba(41, 41, 42, 0.15))
+}
+
+.polygon{
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+    width:270px;
+    height:275px;
+    margin: 5% auto;
+    background: #ffffff;
+}
+
+.polygon-container-text{
+  padding-top:25%;
+}
+
+.polygon-number{
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+}
+.polygon-text{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+}
+
+#aclaracion {
+  background: #3F8CC7;
+  margin: 20% 0;
+  transform: skew(0, -3deg);
+  padding: 5%;
+}
+
+#aclaracion-container {
+  transform: skew(0, 3deg);
+}
+
+.planes{
+  text-align: center;
+  box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  margin: 7% 2%;
+  height: 760px;
+  padding-top: 90px;
+}
+
+.planes-nivel{
+  font-weight: 900;
+  font-size: 30px;
+  background-color: #D9D9D9;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.planes-text{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+
+.planes-img{
+  max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  #polygon-container{
+    display: flex;
+    flex-wrap:wrap;
+    margin: 5% 10%;
+  }
+  .polygon{
+    width: 30vw;
+  }
+  .polygon-shadow{
+    margin: 5% 5%;
+  }
+  #contribuir{
+    margin: 10%;
+  }
+  #intro{
+    border-radius: 0px 0px 280.812px 280.812px;
+    transform: rotate(-7.17deg);
+    top: -50px;
+    position: absolute;
+    width: 96%;
+    height: 400px;
+    z-index: -1;
+  }
+  #intro-text{
+    transform: rotate(7.17deg);
+    margin-top: 150px;
+    padding: 50px 10%;
+  }
+  .text{
+    padding: 5px 10%;
+  }
+  .title{
+    margin-top: 10%;
+    margin-bottom: 3%;
+    padding: 5px 10%;
+  }
+  #aclaracion{
+    margin:10% 0 ;
+  }
+  #ser-parte{
+    margin-top: 350px;
+  }
+  #aclaracion {
+    padding: 5% 20% 5% 20%;
+  }
+  .planes{
+    width: 60%;
+    margin: 5% 20%;
+  }
+}
+
+@media (min-width: 1200px) {
+  #contribuir{
+    margin: 5% 20%;
+  }
+  #intro{
+    border-radius: 0px 0px 340.812px 340.812px;
+  }
+  #polygon-container{
+    margin: 5% 5%;
+  }
+  .polygon{
+    width: 270px;
+  }
+  .polygon-shadow{
+    margin: 5% 0;
+    margin-right: auto;
+  }
+  .text{
+    padding: 5px 20%;
+  }
+  .title{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    padding: 5px 20%;
+  }
+  #planes-container{
+    display: flex;
+    margin-left: 10%;
+  }
+  .planes{
+    width: 30%;
+    margin:0;
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #polygon-container{
+    margin-left: 10%;
+  }
+}

@@ -21,16 +21,16 @@ const cards = [{
 }]
 
 export default function HomeCardsPublicaciones(){
-  const cardsMaped = cards.map(infoCard => {
+  const cardsMaped = cards.map((infoCard,index) => {
     return(
-      <div className="col">
+      <div className="col" key={index}>
         <div className="card">
           <img src={infoCard.img} className="card-img-top" alt="..."/>
           <div className="card-body">
             <p className="card-text"><small className="text-muted">{infoCard.date}</small></p>
             <h5 className="card-title">{infoCard.cardTitle}</h5>
             <p className="card-text">{infoCard.cardText}</p>
-            <a href={infoCard.link} target="_blank" class="btn btn-outline-primary ms-auto rounded-pill" rel="noreferrer">Ir a algun lado</a>
+            <a href={infoCard.link} target="_blank" className="btn btn-outline-primary ms-auto rounded-pill" rel="noreferrer">Ir a algun lado</a>
           </div>
         </div>
       </div>

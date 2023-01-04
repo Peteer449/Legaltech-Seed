@@ -38,7 +38,7 @@ export default function NavbarLink(){
   const linksMaped=navbarLinks.map((links,index)=>{ //Mapeo el array de rutas para devolver un <Link> para cada una
     if(links.link === "/QuienesSomos"){
       return(
-        <li className="nav-item dropdown">
+        <li className="nav-item dropdown" key={index}>
           {/* eslint-disable-next-line jsx-a11y/anchor-is-valid*/}
           <a className={`nav-link dropdown-toggle active overflow-visible`} id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             {links.section}
@@ -52,7 +52,7 @@ export default function NavbarLink(){
     }
     return(
         <li className="nav-item" key={index}>
-          <Link className={`nav-link active overflow-visible ${pathname===links.link?"text-decoration-underline fw-bold":""}`} activeClassName="text-decoration-underline" to={links.link}>{links.section}
+          <Link className={`nav-link active overflow-visible ${pathname===links.link?"text-decoration-underline fw-bold":""}`} activeclassname="text-decoration-underline" to={links.link}>{links.section}
           </Link>
         </li>
       )
