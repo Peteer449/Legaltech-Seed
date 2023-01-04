@@ -24,9 +24,9 @@ const cards = [{
 }]
 
 export default function HomeCardsEventos(){
-  const cardsMaped = cards.map(infoCard => {
+  const cardsMaped = cards.map((infoCard,index) => {
     return(
-      <div className="col">
+      <div className="col" key={index}>
         <div className="card">
           <img src={infoCard.img} className="card-img-top" alt="..."/>
           <div className="card-body">

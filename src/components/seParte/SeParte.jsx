@@ -39,13 +39,13 @@ export default function SeParte(){
         <div className="text raleway">
           Esquema de talleres y capacitaciones de formación certificadas. Modelo ofrecido a instituciones y organismos, tanto públicos como privados:
           <ul className="mt-3">
-            <li className="text raleway">Proteccion de datos personales</li>
-            <li className="text raleway">Blockchain: aplicación y bases. Ámbito público y privado</li>
-            <li className="text raleway">Herramientas para el abogado 4.0</li>
-            <li className="text raleway">Inteligencia artificial y derecho</li>
-            <li className="text raleway">Diseño legal</li>
-            <li className="text raleway">Inteligencia artificial y sesgos</li>
-            <li className="text raleway">Asesoramiento para emprendedores</li>
+            <li className="text-ul raleway">Proteccion de datos personales</li>
+            <li className="text-ul raleway">Blockchain: aplicación y bases. Ámbito público y privado</li>
+            <li className="text-ul raleway">Herramientas para el abogado 4.0</li>
+            <li className="text-ul raleway">Inteligencia artificial y derecho</li>
+            <li className="text-ul raleway">Diseño legal</li>
+            <li className="text-ul raleway">Inteligencia artificial y sesgos</li>
+            <li className="text-ul raleway">Asesoramiento para emprendedores</li>
           </ul>
         </div>
       </div>

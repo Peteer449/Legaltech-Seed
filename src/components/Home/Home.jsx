@@ -14,7 +14,7 @@ import HomeCardsEventos from "./HomeCardsEventos"
 //         <img src={require("../../images/plantaVector.png")} alt="" className="img-fluid float-end col-3" id="img-home" />
 //         <h1 className="raleway fw-bold fst-italic col-4 mb-4 mt-5 text-home">¡Bienvenidos a la página web oficial del primer semillero de Derecho y Tecnología de Argentina!</h1>
 //         <svg className="col-4 text-home pe-5" width="395" height="20" viewBox="0 0 395 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-//           <path d="M1 17.0682C109 -0.931884 258.5 -2.43198 394.5 17.0682" stroke="#3F8CC7" stroke-width="5"/>
+//           <path d="M1 17.0682C109 -0.931884 258.5 -2.43198 394.5 17.0682" stroke="#3F8CC7" strokeWidth="5"/>
 //         </svg>
 //         <h4 className="col-4 mt-5 text-home">Somos Legal Tech Seed, una asociación civil simple que surge como respuesta a las problemáticas que genera la brecha digital en nuestra sociedad.</h4>
 //       </div>
@@ -60,7 +60,7 @@ export default function Home(){
         <img src={require("../../images/plantaVector.png")} alt="" className="img-fluid float-end col-3" id="img-home" />
         <h1 className="raleway fw-bold fst-italic col-4 mb-4 mt-5 text-home">¡Bienvenidos a la página web oficial del primer semillero de Derecho y Tecnología de Argentina!</h1>
         <svg className="col-4 text-home pe-5" width="395" height="20" viewBox="0 0 395 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M1 17.0682C109 -0.931884 258.5 -2.43198 394.5 17.0682" stroke="#3F8CC7" stroke-width="5"/>
+          <path d="M1 17.0682C109 -0.931884 258.5 -2.43198 394.5 17.0682" stroke="#3F8CC7" strokeWidth="5"/>
         </svg>
         <h4 className="col-4 mt-5 text-home">Somos Legal Tech Seed, una asociación civil simple que surge como respuesta a las problemáticas que genera la brecha digital en nuestra sociedad.</h4>
       </div>
@@ -84,11 +84,11 @@ export default function Home(){
         <img src={require("../../images/logologo.png")} className="img-fluid" alt=""/>
         <img src={require("../../images/textologo.png")} className="img-fluid" alt=""/>
         <ul className="nav mt-4 col-9 justify-content-between list-unstyled d-flex flex-wrap">
-          <li className="ms-3"><a href="https://www.instagram.com/legaltechseed/" rel='noreferrer' target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-          <li className="ms-3"><a href="https://twitter.com/legaltechseed" rel='noreferrer' target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
-          <li className="ms-3"><a href="https://www.facebook.com/people/Legaltech-Seed/100025890133686/" rel='noreferrer' target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
-          <li className="ms-3"><a href="mailto:legaltechseed@gmail.com" rel='noreferrer' target="_blank"><i class="fa-solid fa-inbox"></i></a></li>
-          <li className="ms-3"><a href="https://www.youtube.com/channel/UCtdyphDjxSIFk5jk5ZRzm7Q" rel='noreferrer' target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+          <li className="ms-3"><a href="https://www.instagram.com/legaltechseed/" rel='noreferrer' target="_blank"><i className="fa-brands fa-instagram"></i></a></li>
+          <li className="ms-3"><a href="https://twitter.com/legaltechseed" rel='noreferrer' target="_blank"><i className="fa-brands fa-twitter"></i></a></li>
+          <li className="ms-3"><a href="https://www.facebook.com/people/Legaltech-Seed/100025890133686/" rel='noreferrer' target="_blank"><i className="fa-brands fa-facebook"></i></a></li>
+          <li className="ms-3"><a href="mailto:legaltechseed@gmail.com" rel='noreferrer' target="_blank"><i className="fa-solid fa-inbox"></i></a></li>
+          <li className="ms-3"><a href="https://www.youtube.com/channel/UCtdyphDjxSIFk5jk5ZRzm7Q" rel='noreferrer' target="_blank"><i className="fa-brands fa-youtube"></i></a></li>
         </ul>
         </div>
         <img src="https://pimmedia.egger.com/l/decor/U732_PM/s/Detail/f/881x513/8803437445150" alt="" className="img-fluid col-3"/>
