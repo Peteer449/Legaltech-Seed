@@ -30,6 +30,7 @@
     -webkit-user-select: none;
     touch-action: manipulation;
     width: fit-content;
+    margin: auto;
     word-break: break-word;
     border: 0;
     transition: all .8s;
@@ -43,4 +44,29 @@
 
 #navbar{
     z-index: 100;
+}
+
+
+@-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    100% {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    100% {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+    }
+  }
+  .nav-link:hover{
+    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }

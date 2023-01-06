@@ -14,6 +14,7 @@ export default function QuienesSomosCards({
             <div
                 data-aos={`${orientation === "L" ? "fade-right" : "fade-left"}`}
                 data-aos-once="true"
+                data-aos-duration="1300"
                 className="pe-1 ps-1 pe-md-5 ps-md-5"
                 id="blue-card-container"
             >
@@ -50,6 +51,7 @@ export default function QuienesSomosCards({
                 <div
                     data-aos={`${orientation === "L" ? "fade-right" : "fade-left"}`}
                     data-aos-once="true"
+                    data-aos-duration="1300"
                     className="pe-1 ps-1 pe-md-5 ps-md-5"
                     id="blue-card-container"
                 >
