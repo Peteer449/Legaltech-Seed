@@ -14,8 +14,9 @@
 }
 
 #introduccion-text {
+    display: flex;
+    justify-content: center;
     color: #fff;
-    text-align: center;
     line-height: 30px;
 
 }
