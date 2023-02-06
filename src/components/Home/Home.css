@@ -1,15 +1,125 @@
 #first-section{
   margin-bottom: 20vh;
+  background-color: #24559E;
+}
+
+#img-home{
+  width: 100%;
+  max-width: 500px;
+  max-height: 500px;
 }
 
 #second-section{
   background-color: #828282;
 }
 
-#img-home{
-  margin-right: 20%;
+.title-home{
+  font-size: 30px;
+  font-weight: 400;
 }
 
-.text-home{
-  margin-left: 20% !important;
+.title-home-text{
+  font-weight: 700;
+  font-size: 24px;
+}
+
+#publicaciones{
+  font-weight: 600;
+  font-size: 30px;
+  color:#24559E;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#premios-title{
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 45px;
+  color: #24559E;
+  text-align: center;
+}
+#premios-text{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+}
+
+#premios-y-reconocimientos {
+  margin: 5% 0 20% 0;
+  padding: 5%;
+  background-color: #24559E;
+}
+
+.premios-image{
+  height: 90px;
+}
+
+.ultimas-publicaciones-cards{
+  width: 16em;
+  border-radius: 50px;
+}
+
+.ultimas-publicaciones-cards .card-body{
+  border-radius: 0 0 50px 50px;
+}
+.ultimas-publicaciones-cards img{
+  border-radius:50px 50px 0 0;
+}
+
+.ultimas-publicaciones-cards div{
+  background-color: #EEF2F8;
+}
+
+.ultimas-publicaciones-cards .card-title{
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.6px;
+  color: #020405;
+}
+
+.ultimas-publicaciones-cards .card-text{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  color: #020405;
+}
+
+
+.ultimas-publicaciones-cards a{
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 150%;
+}
+
+
+/* Media query mediana(md)  */
+@media (min-width: 768px) {
+  #premios-y-reconocimientos {
+    padding: 5% 20% 5% 20%;
+  }
+}
+@media (min-width: 992px) {
+  .ultimas-publicaciones-cards{
+    width: 20em;
+  }
+}
+/* Media query extra grande(xl)  */
+@media (min-width: 1200px) {
+  .ultimas-publicaciones-cards{
+    width: 24em;
+  }
+  #first-section{
+    border-radius: 0px 0px 90px 90px;
+  }
+  #premios-y-reconocimientos {
+    padding: 5% 0;
+  }
 }

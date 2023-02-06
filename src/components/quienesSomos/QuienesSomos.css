@@ -104,12 +104,6 @@
     text-align: center;
 }
 
-#premios-y-reconocimientos {
-    margin: 20% 0 20% 0;
-    padding: 5%;
-    background-color: black;
-}
-
 /* Media query mediana(md)  */
 @media (min-width: 768px) {
     #blue-card-container {
@@ -144,10 +138,6 @@
     }
 
     #como-lo-hacemos {
-        padding: 5% 20% 5% 20%;
-    }
-
-    #premios-y-reconocimientos {
         padding: 5% 20% 5% 20%;
     }
 

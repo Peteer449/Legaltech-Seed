@@ -62,13 +62,6 @@ export default function QuienesSomos(){
           "
           />
         </div>
-      {/* Seccion premios y reconocimientos */}
-      <div id="premios-y-reconocimientos" className="text-white">
-        <p id="como-lo-hacemos-title" className="pt-5 pb-5">PREMIOS Y RECONOCIMIENTOS</p>
-        <p id="como-lo-hacemos-text" className="pt-4">La participación de los integrantes del semillero, así como su compromiso permanente, nos han ayudado a obtener varios premios y reconocimientos a nivel municipal, provincial y nacional.</p>
-        <p id="como-lo-hacemos-text" className="pt-4">Participamos en el concurso "Identihack" organizado por el BID y nuestra idea quedó seleccionada entre las mejores. Obtuvimos el reconocimiento de la Municipalidad de Mendoza por nuestra labor, así como también de la Legislatura de la Provincia de Mendoza y de la de Tierra del Fuego.</p>
-        <p id="como-lo-hacemos-text" className="pt-4">Fuimos impulsores del proyecto Mendoza - Criptofriendly. Creamos el Seminario de Derecho y Tecnología de la Universidad Nacional de Cuyo, totalmente gratuito y con disertantes de primer nivel. Hoy formamos parte del hub más grande de jóvenes de Iberoamérica: el Hub de emprendedores del IALAB (UBA) - LEGALTECH SEED. </p>
-      </div>
     </div>
   )
 }
