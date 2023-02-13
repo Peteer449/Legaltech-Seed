@@ -21,7 +21,7 @@ export default function Home(){
       </div>
 
       {/*Seccion de publicaciones*/}
-      <p id="publicaciones">Ultimas publicaciones</p>
+      <p id="publicaciones">Últimas publicaciones</p>
       <UltimasPublicaciones/>
       
       {/* Seccion premios y reconocimientos */}
@@ -42,11 +42,6 @@ export default function Home(){
           </div>
         </div>
       </div>
-
-      {/*Imagen de la flecha que te lleva arriba de la pagina*/}
-      <a href="#navbar" className="float-end me-5">
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAACtUlEQVRoge2aTWvUQBzGfyqYFrFYqKugYEEPKuupexPxIi09CCIefPkMovRbWD0oCuK1+AmkKhU9SBVK8azb3cWD9YUtCsUiWLdUDzOBOM7mbf5JRugDD4RNMnl+mZedTAJb8kvbBMsaBk4DJ4HjwGGgBuzS+38AXeA98BZ4BbwEVgUz5FYAXAHmgA3gd0ZvAE+By7qs0jUITAGfUoRN64/AdWCgLIhJoCMIYLoNTBQJEAB3CgQwPYOqeVHtA96UCBF6ETVgiGgUVd1lQ4Ru6QxO2gs0K4QI3QH254UYoJrmFNfMcg3R9z0Ib/puVohJD0L383haiABY8iBwP7dJ+ac55UHYJF9LgghQU4WqgyZ5GaPjbzdALgAHkmg90EHgfNwBc8jeuS4wBjT0tmTZT/pBDJNvKh4HUY+UXxeG6QFDNpBzBUHUjW1JmLM2kFsFQXT7/CZxrWkbyGOBgleAE7q8o8CXmH2fBa73yAbSciw0zV2XrpmmDeSbQ4FxNZF0rEvNrNhA1kuAkIb5KQWSB0ISxgqStWm5QEjBWJtW1hnvmD7PtdNGB4BGxnPfheGjc622jS5Gg/rCL3BbIKjpMhpkXzWxZr5J/rtalW+E4aM18jrj3fBB8+FGdBF7D/AV2FF6nHzqASPAd/i7RlaB51UkyqlnaAj498FqptwsTnoYt/N/etTdGQ1u1sg6ajrvu6aBX0kHBfixTNrPLTKsOE54ENjmTeBMWohQ9zwIbvp2VghQ1bfoQfjQCxgdPItG8KO/dFAvm5w0ivtjsIuXgEOuEKFqVNPMFlAvm0QVvgzdLAniAQW/ex+n2KbWJMcQm1cBaml/WRDgA3CVir6ACIBLqMW9XoqwpnvALHARh6EVZD+qGUJ9VHMKOAYcQXXU3Xr/GmqxoIN61p5HfVSzJphhS97oDyeRG262suK5AAAAAElFTkSuQmCC" alt="Flecha hacia arriba"/>
-      </a>
     </div>
   )
 }

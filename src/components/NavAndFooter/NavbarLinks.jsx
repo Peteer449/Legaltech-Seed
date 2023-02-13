@@ -44,7 +44,7 @@ export default function NavbarLink(){
             {links.section}
           </a>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><Link className="dropdown-item" to="/QuienesSomos">Conoce la empresa</Link></li>
+            <li><Link className="dropdown-item" to="/QuienesSomos">Conoce al semillero</Link></li>
             <li><Link className="dropdown-item" to="/QuienesSomos2">Conoce al team</Link></li>
           </ul>
         </li>
