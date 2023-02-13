@@ -16,8 +16,6 @@ export default function useWindowDimensions() {
     useEffect(() => {
         function handleResize() {
             setWindowDimensions(getWindowDimensions());
-            // eslint-disable-next-line no-restricted-globals
-            location.reload()
         }
 
         window.addEventListener("resize", handleResize);

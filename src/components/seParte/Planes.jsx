@@ -1,11 +1,11 @@
-export default function Planes({nivel,wix,feed,story,youtube,img}){
+export default function Planes({nivel,web,feed,story,youtube,img}){
   return(
     <div className="planes">
       <div className="planes-nivel">{nivel}</div>
-      <div className="raleway planes-text">wix: {wix}</div>
-      <div className="raleway planes-text">feed: {feed}</div>
-      <div className="raleway planes-text">story: {story}</div>
-      <div className="raleway planes-text">youtube: {youtube}</div>
+      <div className="raleway planes-text">Web: {web}</div>
+      <div className="raleway planes-text">Feed: {feed}</div>
+      <div className="raleway planes-text">Story: {story}</div>
+      <div className="raleway planes-text">Youtube: {youtube}</div>
       <img src={img} alt="" className="planes-img"/>
     </div>
   )
