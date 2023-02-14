@@ -3,7 +3,7 @@ import './style.css'
 export default function Footer(){
   return(
     <footer>
-      <ul className="nav justify-content-center d-flex mb-5">
+      <ul className="nav justify-content-center d-flex mb-5 mt-5">
         <li className="ms-3"><a href="https://www.instagram.com/legaltechseed/" rel='noreferrer' target="_blank"><i className="fa-brands fa-instagram"></i></a></li>
         <li className="ms-3"><a href="https://twitter.com/legaltechseed" rel='noreferrer' target="_blank"><i className="fa-brands fa-twitter"></i></a></li>
         <li className="ms-3"><a href="https://www.facebook.com/people/Legaltech-Seed/100025890133686/" rel='noreferrer' target="_blank"><i className="fa-brands fa-facebook"></i></a></li>
