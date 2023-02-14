@@ -1,4 +1,11 @@
 import QuienesSomosCards from "./QuienesSomosCards"
+import deDondeVenimos from "../../images/de-donde-venimos-vector.png"
+import dondeVamos from "../../images/donde-vamos-vector.png"
+import quienesSomos from "../../images/quienes-somos-vector.png"
+import nuestraMision from "../../images/nuestra-mision.png"
+import nuestraVision from "../../images/nuestra-vision.png"
+import nuestrosValores from "../../images/nuestros-valores.png"
+
 import "./QuienesSomos.css"
 
 export default function QuienesSomos(){
@@ -6,18 +13,21 @@ export default function QuienesSomos(){
     <div>
       {/* Primeras 3 cards de Quienes somos */}
       <QuienesSomosCards 
+        image= {quienesSomos}
         orientation="R"
         section="first"
         title="QUIÉNES SOMOS"
         text="Somos el primer semillero de Derecho y Tecnología de Argentina. Nos definimos como un espacio abierto, participativo y transdisciplinario dedicado al desarrollo del diálogo, el debate y la producción de conocimientos ligados a la relación recíproca de dos disciplinas que nos apasionan: el Derecho y la Tecnología."
       />
       <QuienesSomosCards 
+        image={deDondeVenimos}
         orientation="L"
         section="first"
         title="DE DÓNDE VENIMOS"
         text="Nacimos en el 2019, en la Facultad de Derecho de la UNCuyo (Mendoza). Allí Ariadna Luján Martínez y Sol Pino Gonzales, cofundadoras del semillero, encontraron la manera de dar respuesta a una necesidad concreta y clara: la construcción de un espacio para debatir y compartir conocimientos sobre cómo la Tecnología atraviesa al Derecho y viceversa."
       />
       <QuienesSomosCards 
+        image={dondeVamos}
         orientation="R"
         section="first"
         title="HACIA DÓNDE VAMOS"
@@ -39,18 +49,21 @@ export default function QuienesSomos(){
       {/* Segunda seccion con 3 cards */}
       <div id="second-section-cards">
         <QuienesSomosCards
+          image={nuestraMision}
           orientation="L"
           section="second"
           title="NUESTRA MISIÓN"
           text="Buscamos construir puentes entre las personas y el ejercicio de sus derechos digitales, en un contexto donde la tecnología se hace cada vez más presente en todas las esferas de la vida social. Nuestra misión es acortar la brecha digital e informacional que existe actualmente en relación a todos los derechos y obligaciones que de ella surgen."
           />
         <QuienesSomosCards
+          image={nuestraVision}
           orientation="R"
           section="second"
           title="NUESTRA VISIÓN"
           text="Nos posicionamos como herramienta e instrumento de transformación por y para la sociedad y los futuros profesionales. Desde el ámbito académico, queremos alcanzar una construcción colectiva del Derecho Digital."
           />
         <QuienesSomosCards
+          image={nuestrosValores}
           orientation="L"
           section="second"
           title="NUESTROS VALORES"

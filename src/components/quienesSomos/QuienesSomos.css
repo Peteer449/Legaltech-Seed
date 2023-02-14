@@ -27,10 +27,10 @@
 #blue-card-img {
     border-radius: 60px;
     transform: rotate(45deg);
-    top: -50px;
+    top: -30px;
     left: 60%;
-    height: 130px;
-    width: 130px;
+    height: 150px;
+    width: 150px;
     position: absolute;
 }
 
@@ -40,15 +40,21 @@
     border-radius: 100px;
     transform: rotate(45deg);
     top: -100px;
-    left: 25%;
+    left: 20.7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
 }
 
 #img-inside {
     transform: rotate(-45deg);
-    margin-top: 10%;
-    margin-left: 10%;
-    height: 80%;
+    height: 60%;
+}
+
+#img-inside-second {
+    transform: rotate(-45deg);
+    height: 75%;
 }
 
 #card-title {
@@ -175,7 +181,7 @@
     #blue-card-img {
         width: 400px;
         height: 400px;
-        margin-right: 10%;
+        margin-right: 15%;
     }
 
     #card-title {
@@ -184,17 +190,17 @@
     }
 
     #card-text {
-        padding-right: 40%;
+        padding-right: 45%;
         padding-left: 5%;
     }
 
     .left-img {
         margin-right: 0 !important;
-        margin-left: 10% !important;
+        margin-left: 15% !important;
     }
 
     .left-text {
-        padding-left: 40% !important;
+        padding-left: 47% !important;
         padding-right: 5% !important;
         text-align: right !important;
     }
