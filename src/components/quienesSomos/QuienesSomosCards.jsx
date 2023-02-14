@@ -1,6 +1,7 @@
 import useWindowDimensions from "./useWindowDimensions";
 
 export default function QuienesSomosCards({
+    image,
     orientation,
     section,
     title,
@@ -19,13 +20,13 @@ export default function QuienesSomosCards({
                 id="blue-card-container"
             >
                 <div
-                    className={`${orientation === "L" && "left-img"} bg-secondary`}
+                    className={`${orientation === "L" && "left-img"} bg-light d-flex flex-wrap justify-content-center align-items-center`}
                     id="blue-card-img"
                 >
                     <img
                         id="img-inside"
                         alt=""
-                        src={require("../../images/plantaVector.png")}
+                        src={image}
                     />
                 </div>
                 <div className="text-white p-4" id="blue-card">
@@ -56,13 +57,13 @@ export default function QuienesSomosCards({
                     id="blue-card-container"
                 >
                     <div
-                        className={`${orientation === "L" && "left-img"} bg-secondary`}
+                        className={`${orientation === "L" && "left-img"} bg-light`}
                         id="blue-card-img-second"
                     >
                         <img
                             alt=""
-                            src={require("../../images/plantaVector.png")}
-                            id="img-inside"
+                            src={image}
+                            id="img-inside-second"
                         />
                     </div>
                     <div className="text-white p-4" id="blue-card-second">
@@ -91,11 +92,11 @@ export default function QuienesSomosCards({
                     id="blue-card-second-large-container"
                 >
                     <div id="blue-card-second-large-div" className="text-white">
-                        <div className="bg-secondary" id="blue-card-second-large-img">
+                        <div className="bg-light d-flex flex-wrap justify-content-center align-items-center" id="blue-card-second-large-img">
                             <img
                                 alt=""
-                                src={require("../../images/plantaVector.png")}
-                                id="img-inside"
+                                src={image}
+                                id="img-inside-second"
                             />
                         </div>
                         <p id="card-title-second">{title}</p>
