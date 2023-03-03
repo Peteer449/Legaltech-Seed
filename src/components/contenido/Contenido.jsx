@@ -41,7 +41,7 @@ const Contenido = () => {
             <li className="contenido-list-title">Club de debates</li>
             <p className="contenido-text">Encuentro una vez cada dos meses aproximadamente, donde los miembros nos juntamos a charlar, pensar y debatir sobre temáticas actuales.</p>
             <li className="contenido-list-title">Expertos en datos</li>
-            <p className="contenido-text">Proyecto a largo plazo que analiza toda la normativa de datos personales (nacional e internacional). En la primera etapa comentamos la Ley de Datos Personales. En la segunda instancia, tuvimos una entrevista con gente de la Agencia de Acceso a la Información. Y en la tercera, elaboramos un exhaustivo informe al cual pueden tener acceso las personas que les interesa la temática a través del siguiente <a href="" className="black-link">link</a></p>
+            <p className="contenido-text">Proyecto a largo plazo que analiza toda la normativa de datos personales (nacional e internacional). En la primera etapa comentamos la Ley de Datos Personales. En la segunda instancia, tuvimos una entrevista con gente de la Agencia de Acceso a la Información. Y en la tercera, elaboramos un exhaustivo informe al cual pueden tener acceso las personas que les interesa la temática a través del siguiente <a href="https://drive.google.com/file/d/1TdSyTjB_No1ATEflpTJgFeNN5uhU7ktJ/view" target='_blank' className="black-link">link</a></p>
             <li className="contenido-list-title">Artículos, ensayos e informes</li>
             <p className="contenido-text">Muchas de nuestras producciones han sido publicadas en diferentes editoriales y han participado en diferentes congresos académicos.</p>
             <li className="contenido-list-title">Taller dictado por Mariana Sánchez Caparrós sobre cómo empezar a escribir</li>
@@ -60,8 +60,8 @@ const Contenido = () => {
           <ul id="contenido-mayores-list" className="pt-4">
             <li className="contenido-list-title">Diccionario Tech para adultos mayores (y no tanto)"</li>
             <p className="contenido-text">Diccionario elaborado a raíz de un trabajo colaborativo, participativo y dinámico que fuimos construyendo desde Legaltech Seed Derecho 4.0, como parte de nuestro aporte de Responsabilidad Social hacia los Adultos Mayores en especial.</p>
-            <p>Podés descargarlo <a href="" className="black-link">aquí</a></p>
-            <p>¿Te gustaría sumar nuevos términos? Hacé click <a href="" className="black-link">aquí</a></p>
+            <p>Podés descargarlo <a href="https://drive.google.com/file/d/1dmxPOtJQmYJE6BkJ0FivsNyQE7_TE_bs/view" target='_blank' className="black-link">aquí</a></p>
+            <p>¿Te gustaría sumar nuevos términos? Hacé click <a href="https://docs.google.com/forms/d/e/1FAIpQLSdAas-tPm1XItreBzn9uiW35jP_38S2m8-Kw_Y-jbvAg9_-FQ/viewform" target='_blank' className="black-link">aquí</a></p>
             <li className="contenido-list-title">Talleres de formación</li>
           </ul>
         </div>
@@ -77,7 +77,7 @@ const Contenido = () => {
           <ul id="contenido-editorial-list" className="pt-4">
             <li className="contenido-list-title">Podcast Millennials hackeando al Derecho</li>
             <p className="contenido-text">Es un Congreso virtual organizado por Legaltech Seed dedicado al abordaje interdisciplinario de las principales transformaciones y sucesos ligados al Derecho y la Tecnología. Articulando la participación de los miembros del semillero en sus diferentes etapas de desarrollo, el evento es realizado por estudiantes, docentes y profesionales comprometidos con el estudio y análisis de la 4° Revolución Industrial que transitamos.</p>
-            <p>¡Escuchalo <a href="" className="black-link">aquí</a> !</p>
+            <p>¡Escuchalo <a href="https://open.spotify.com/show/7C9qkB1y83GGSaYNu0nqPc" target='_blank' className="black-link">aquí</a> !</p>
           </ul>
         </div>
       </div>
