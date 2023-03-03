@@ -47,8 +47,9 @@
     background: #3F8CC7;
     margin: 0;
     transform: skew(0, -3deg);
-    padding: 5%;
     margin-top: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 #contenido-proyectos-container {
@@ -71,7 +72,6 @@
     line-height: 30px;
     text-align: start;
     line-height: 30px;
-    margin-left: 7%;
     list-style: none;
 }
 
@@ -85,7 +85,8 @@
     background: #216CB0;
     margin: 0;
     transform: skew(0, -3deg);
-    padding: 5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
     margin-top: 10%;
 }
 
@@ -117,13 +118,15 @@
     content: '●';
 }
 
+
 /* Adultos Mayores */
 
 #contenido-mayores {
     background: #3F8CC7;
     margin: 0;
     transform: skew(0, -3deg);
-    padding: 5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
     margin-top: 10%;
 }
 
@@ -161,7 +164,8 @@
     background: #216CB0;
     margin: 0;
     transform: skew(0, -3deg);
-    padding: 5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
     margin-top: 10%;
 }
 
@@ -199,6 +203,16 @@
     }
 }
 
+@media screen and (max-width:800px) {
+    .circleLeftPosition,
+    .circleRightPosition,
+    .arrowsRightPosition,
+    .arrowsLeftPosition {
+        display: none;
+    
+}
+}
+
 @media screen and (max-width:528px) {
     #contenido-introduccion {
         height: 32em;
@@ -215,4 +229,22 @@
     #contenido-introduccion {
         height: 40em;
     }
+}
+
+/* Vectores  */
+
+.circleLeftPosition,
+.circleRightPosition,
+.arrowsRightPosition,
+.arrowsLeftPosition {
+    width: 140px;
+}
+
+
+.arrowsLeftPosition {
+    margin-left: 30px;
+}
+
+.arrowsRightPosition {
+    margin-right: 30px;
 }
