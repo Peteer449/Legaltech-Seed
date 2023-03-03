@@ -1,4 +1,11 @@
 import "./nuestrasActividades.css";
+import adultosMayoresVector from "../../images/adultos-mayores-vector.png"
+import comunicacionVector from "../../images/comunicacion-vector.png"
+import editorialVector from "../../images/editorial-vector.png"
+import investigacionVector from "../../images/investigacion-vector.png"
+import proyectosVector from "../../images/proyectos-vector.png"
+import recursosVector from "../../images/recursos-humanos-vector.png"
+
 
 export default function NuestrasActividades() {
   return (
@@ -22,6 +29,7 @@ export default function NuestrasActividades() {
 
       <div id="proyectos">
         <div id="proyectos-container" className="text-white">
+        <img src={proyectosVector} alt="Vectores"/>
           <p id="proyectos-title" className="pt-5 pb-5">
             Proyectos
           </p>
@@ -46,6 +54,7 @@ export default function NuestrasActividades() {
 
       <div id="investigacion">
         <div id="investigacion-container" className="text-white">
+        <img src={investigacionVector} alt="Vectores"/>
           <p id="investigacion-title" className="pt-5 pb-5">
             Investigación
           </p>
@@ -70,6 +79,7 @@ export default function NuestrasActividades() {
 
       <div id="adultos-mayores">
         <div id="adultos-mayores-container" className="text-white">
+        <img src={adultosMayoresVector} alt="Vectores"/>
           <p id="adultos-mayores-title" className="pt-5 pb-5">
             Adultos Mayores
           </p>
@@ -90,6 +100,7 @@ export default function NuestrasActividades() {
 
       <div id="recursos-humanos">
         <div id="recursos-humanos-container" className="text-white">
+        <img src={recursosVector} alt="Vectores"/>
           <p id="recursos-humanos-title" className="pt-5 pb-5">
             Recursos Humanos
           </p>
@@ -109,6 +120,7 @@ export default function NuestrasActividades() {
 
       <div id="comunicacion">
         <div id="comunicacion-container" className="text-white">
+        <img src={comunicacionVector} alt="Vectores"/>
           <p id="comunicacion-title" className="pt-5 pb-5">
             Comunicación
           </p>
@@ -131,6 +143,7 @@ export default function NuestrasActividades() {
 
       <div id="editorial">
         <div id="editorial-container" className="text-white">
+        <img src={editorialVector} alt="Vectores"/>
           <p id="editorial-title" className="pt-5 pb-5">
             Editorial
           </p>

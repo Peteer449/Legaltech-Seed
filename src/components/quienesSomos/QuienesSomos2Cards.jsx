@@ -1,9 +1,11 @@
-export default function QuienesSomos2Cards({charge,name}){
+export default function QuienesSomos2Cards({img,charge,name}){
   return(
-    <div className="mt-5 mb-5">
-      <div className="text-center text-light fw-bold fs-5 p-3" id="charge" data-aos="fade-right" data-aos-once="true" data-aos-duration="1300"
->{charge}</div>
-      <div className="text-center" data-aos="fade-left" data-aos-once="true" data-aos-duration="1300">{name}</div>
+    <div className="d-flex flex-wrap p-4 justify-content-center" id="quienes-somos-cards">
+      <img src={img} alt="Vector" className="col-10 col-md-5 col-xl-3"/>
+      <div className="col-12 col-xl-6 align-self-center">
+        <div id="charge">{charge}</div>
+        <div id="name">{name}</div>
+      </div>
     </div>
   )
 }

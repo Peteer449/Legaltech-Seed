@@ -11,16 +11,36 @@
   margin: 50px;
 }
 
+#quienes-somos-cards{
+  background: rgba(33, 108, 176, 0.08);
+  border-radius: 60px;
+  margin: 10% 3%;
+}
+
 #charge{
-  background-color: #216CB0;
-  border-radius: 120px 40px;
-  margin: 10px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  color: #3F8CC7;
+}
+
+#name{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #3F8CC7;
 }
 
 /* Media query mediana(md)  */
 @media (min-width: 768px) {
-  #charge{
-    margin: 10px 10% 10px 10%;
+  #quienes-somos-cards{
+    margin: 10% 10%;
   }
   #conoce-al-team{
     border-radius: 0px 0px 280.812px 280.812px;
@@ -50,14 +70,14 @@
 
 /* Media query extra grande(xl)  */
 @media (min-width: 1200px) {
+  #quienes-somos-cards{
+    margin: 5% 15%;
+  }
   #conoce-al-team{
     border-radius: 0px 0px 340.812px 340.812px;
   }
   #nuestros-circulos{
     margin-top: 400px;
-  }
-  #charge{
-    margin: 10px 20% 10px 20%;
   }
   #linkedin{
     width: 29%;
