@@ -328,3 +328,38 @@
         margin-left: 0;
     }
 }
+
+
+.img-vectores {
+    margin-top: 300px;
+    margin-left: 100px;
+    width: 80%;
+}
+
+.img-vectores-2 {
+    margin-top: 150px;
+}
+
+
+.img-vectores-3 {
+    filter: brightness(1.9); /* incrementar brillo un 90% */
+}
+
+@media screen and (max-width: 1200px) {
+    .img-vectores,
+    .img-vectores-2,
+    .img-vectores-3,
+    .img-vectores-4 {
+        margin-top: 120px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .img-vectores,
+    .img-vectores-2,
+    .img-vectores-3,
+    .img-vectores-4 {
+        display: none;
+    }
+}

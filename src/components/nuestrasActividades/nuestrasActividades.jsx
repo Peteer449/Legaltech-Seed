@@ -1,4 +1,11 @@
 import "./nuestrasActividades.css";
+import adultosMayoresVector from "../../images/adultos-mayores-vector.png"
+import comunicacionVector from "../../images/comunicacion-vector.png"
+import editorialVector from "../../images/editorial-vector.png"
+import investigacionVector from "../../images/investigacion-vector.png"
+import proyectosVector from "../../images/proyectos-vector.png"
+import recursosVector from "../../images/recursos-humanos-vector.png"
+
 
 export default function NuestrasActividades() {
   return (
@@ -21,7 +28,8 @@ export default function NuestrasActividades() {
       <h2 className="h2-actividades">Actividades y objetivos de cada área</h2>
 
       <div id="proyectos">
-        <div id="proyectos-container" className="text-white">
+        <div id="proyectos-container" className="text-white row">
+        <div className="col-md-8">
           <p id="proyectos-title" className="pt-5 pb-5">
             Proyectos
           </p>
@@ -42,34 +50,59 @@ export default function NuestrasActividades() {
             <p className="desc-li">En conjunto con la Dirección de Juventudes de la provincia de Mendoza,  participamos en el equipo de “Internet Segura”. Este proyecto tiene como objetivo capacitar y concientizar a jóvenes en edad escolar sobre el buen uso del entorno digital, concientizamos sobre los peligros y buenas prácticas en los entornos digitales.</p>
           </ul>
         </div>
-      </div>
-
-      <div id="investigacion">
-        <div id="investigacion-container" className="text-white">
-          <p id="investigacion-title" className="pt-5 pb-5">
-            Investigación
-          </p>
-          <p id="investigacion-text">
-            Escritura de artículos, papers, ensayos e informes. <br />{" "}
-            Comentarios a fallos y proyectos de ley. <br /> Somos un espacio de
-            debate sobre comentarios de <br /> actualidad y formación.
-          </p>
-          <p id="investigacion-text" className="pt-4">
-            Proyectos activos
-          </p>
-          <ul id="investigacion-list" className="pt-4">
-            <li>Club de debates</li>
-            <p className="desc-li-whiteBg">Encuentro una vez cada dos meses aproximadamente, donde los miembros nos juntamos a charlar, pensar y debatir sobre temáticas actuales.</p>
-            <li>Expertos en datos</li>
-            <p className="desc-li-whiteBg">Proyecto a largo plazo que analiza toda la normativa de datos personales (nacional e internacional).  En la primera etapa comentamos la Ley de Datos Personales. En la segunda instancia, tuvimos una entrevista con gente de la Agencia de Acceso a la Información. Y en la tercera, elaboramos un exhaustivo informe al cual pueden tener acceso las personas que les interesa la temática.</p>
-            <li>Infopublis</li>
-            <p className="desc-li-whiteBg">Son producciones destinadas a las redes sociales, cuyo objetivo comunicacional principal es educar a los usuarios sobre las temáticas legales e informáticas que nos comprometen.</p>
-          </ul>
+        <div className="col-md-4">
+        <img src={proyectosVector} className="img-vectores img-fluid" alt="Vectores"/>
         </div>
       </div>
+    </div>
+    
+      <div id="investigacion">
+  <div id="investigacion-container" className="text-white row">
+    <div className="col-md-8">
+      <p id="investigacion-title" className="pt-5 pb-5">
+        Investigación
+      </p>
+      <p id="investigacion-text">
+        Escritura de artículos, papers, ensayos e informes. <br />{" "}
+        Comentarios a fallos y proyectos de ley. <br /> Somos un espacio de
+        debate sobre comentarios de <br /> actualidad y formación.
+      </p>
+      <p id="investigacion-text" className="pt-4">
+        Proyectos activos
+      </p>
+      <ul id="investigacion-list" className="pt-4">
+        <li>Club de debates</li>
+        <p className="desc-li-whiteBg">
+          Encuentro una vez cada dos meses aproximadamente, donde los miembros
+          nos juntamos a charlar, pensar y debatir sobre temáticas actuales.
+        </p>
+        <li>Expertos en datos</li>
+        <p className="desc-li-whiteBg">
+          Proyecto a largo plazo que analiza toda la normativa de datos
+          personales (nacional e internacional). En la primera etapa comentamos
+          la Ley de Datos Personales. En la segunda instancia, tuvimos una
+          entrevista con gente de la Agencia de Acceso a la Información. Y en la
+          tercera, elaboramos un exhaustivo informe al cual pueden tener acceso
+          las personas que les interesa la temática.
+        </p>
+        <li>Infopublis</li>
+        <p className="desc-li-whiteBg">
+          Son producciones destinadas a las redes sociales, cuyo objetivo
+          comunicacional principal es educar a los usuarios sobre las temáticas
+          legales e informáticas que nos comprometen.
+        </p>
+      </ul>
+    </div>
+    <div className="col-md-4">
+      <img src={investigacionVector} alt="Vectores" className="img-vectores img-fluid" />
+    </div>
+  </div>
+</div>
+
 
       <div id="adultos-mayores">
-        <div id="adultos-mayores-container" className="text-white">
+        <div id="adultos-mayores-container" className="text-white row">
+        <div className="col-md-8">
           <p id="adultos-mayores-title" className="pt-5 pb-5">
             Adultos Mayores
           </p>
@@ -86,10 +119,16 @@ export default function NuestrasActividades() {
             <li> Talleres de formación</li>
           </ul>
         </div>
+        <div className="col-md-4">
+        <img src={adultosMayoresVector} className="img-vectores-2 img-fluid" alt="Vectores"/>
+        </div>
       </div>
+    </div>
+
 
       <div id="recursos-humanos">
-        <div id="recursos-humanos-container" className="text-white">
+        <div id="recursos-humanos-container" className="text-white row">
+        <div className="col-md-8">
           <p id="recursos-humanos-title" className="pt-5 pb-5">
             Recursos Humanos
           </p>
@@ -105,10 +144,16 @@ export default function NuestrasActividades() {
             <li>Capacitaciones internas</li>
           </ul>
         </div>
+        <div className="col-md-4">
+        <img src={recursosVector} className="img-vectores-3 img-fluid" alt="Vectores"/>
+        </div>
       </div>
+    </div>
+
 
       <div id="comunicacion">
-        <div id="comunicacion-container" className="text-white">
+        <div id="comunicacion-container" className="text-white row">
+        <div className="col-md-8">
           <p id="comunicacion-title" className="pt-5 pb-5">
             Comunicación
           </p>
@@ -127,10 +172,16 @@ export default function NuestrasActividades() {
             </li>
           </ul>
         </div>
+        <div className="col-md-4">
+        <img src={recursosVector} className="img-vectores-3 img-fluid" alt="Vectores"/>
+        </div>
       </div>
+    </div>
+
 
       <div id="editorial">
-        <div id="editorial-container" className="text-white">
+        <div id="editorial-container" className="text-white row">
+        <div className="col-md-8">
           <p id="editorial-title" className="pt-5 pb-5">
             Editorial
           </p>
@@ -147,7 +198,13 @@ export default function NuestrasActividades() {
             <li>Podcast Millennials hackeando al Derecho</li>
           </ul>
         </div>
+        <div className="col-md-4">
+        <img src={editorialVector} className="img-vectores-4 img-fluid" alt="Vectores"/>
+        </div>
+      </div>
       </div>
     </>
   );
 }
+
+
